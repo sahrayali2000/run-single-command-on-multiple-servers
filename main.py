@@ -11,7 +11,7 @@ def run_command(host, user, password, command):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("cmd", "Please Enter Your Command")
+    parser.add_argument("--cmd", help="Please Enter Your Command")
     args = parser.parse_args()
     with open('servers.json', 'r') as json_file:
         servers_data = json.loads(json_file.read())
