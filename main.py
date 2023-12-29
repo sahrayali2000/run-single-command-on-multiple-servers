@@ -16,4 +16,4 @@ if __name__ == '__main__':
     with open('servers.json', 'r') as json_file:
         servers_data = json.loads(json_file.read())
     for server in servers_data:
-        run_command(server['ip'], server['user'], server['password'], args.cmd)
+        run_command(server['ip'], server['username'], server['password'], args.cmd)
