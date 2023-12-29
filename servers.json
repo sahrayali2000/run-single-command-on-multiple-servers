@@ -1,0 +1,12 @@
+[
+    {
+        "ip" : "x.x.x.x",
+        "username" : "USERNAME",
+        "password" : "PASSWORD"
+    },
+    {
+        "ip" : "n.n.n.n",
+        "username" : "USERNAME",
+        "password" : "PASSWORD"
+    }
+]
