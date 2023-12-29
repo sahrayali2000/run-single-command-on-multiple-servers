@@ -23,7 +23,7 @@ python3 -m venv venv
 
 3. run command bellow
 ```angular2html
-python3 main.py
+python3 main.py YOUR_COMMAND
 ```
 
 4. waiting for processes till done
