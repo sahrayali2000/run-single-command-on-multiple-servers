@@ -28,4 +28,4 @@ python3 main.py "{YOUR_COMMAND}"
 
 4. waiting for processes till done
 
-##  Your Command Will Be Done on Servers
+##  Your Command Will Be Execute on Servers
